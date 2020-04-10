@@ -150,8 +150,7 @@ header {
     color: #000; }
 
 .card-img {
-  max-width: 384px;
-  max-height: 250px;
+  width: 100%;
   object-fit: cover; }
 
 .card-text {
@@ -624,7 +623,10 @@ footer {
     padding: 10px 0; }
   .input-search {
     max-width: 100%;
-    width: 100%; } }
+    width: 100%; }
+  .modal-open {
+    opacity: 0;
+    z-index: -100; } }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
